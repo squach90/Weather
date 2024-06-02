@@ -3,6 +3,7 @@
 
 import LandingPage from './_landing';
 import Hero from './_landing/Hero';
+import { Analytics } from '@vercel/analytics/react';
 import { NavBar } from './_landing/NavBar';
 
 export default function Page() {
@@ -11,7 +12,7 @@ export default function Page() {
       <Hero />
       <LandingPage />
       <NavBar />
-      
+      <Analytics />
     </main>
   );
 }
